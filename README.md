@@ -38,6 +38,9 @@ Demo user: `demo@example.com` / `password123`
 npm run dev
 ```
 
+In Simple Way to Run The Project :
+npm install
+npm run dev
 Environment variables (see `.env.example`):
 - `NEXTAUTH_URL` — URL where NextAuth runs (default `http://localhost:3000`)
 - `NEXTAUTH_SECRET` — a random secret for NextAuth
@@ -53,3 +56,4 @@ Security notes
 
 - For production, use a managed database and set `NEXTAUTH_SECRET` to a strong secret. Run behind HTTPS.
 - Rate-limit authentication endpoints and configure proper session cookie settings as needed.
+
